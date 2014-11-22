@@ -1,7 +1,7 @@
 function ServiceStorage(opt) {
 	try {
-	    if (localStorage.getItem) {
-	        this.Storage = localStorage;
+	    if (window.localStorage.getItem) {
+	        this.Storage = window.localStorage;
 	    }
 	} catch(e) {
 	   this.Storage = {};
