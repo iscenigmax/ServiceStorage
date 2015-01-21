@@ -27,7 +27,7 @@ ServiceStorage.prototype.removeSession = function (key) {
 	window.sessionStorage.removeItem(key);
 };
 
-ServiceStorage.prototype.clearSession = function (key) {
+ServiceStorage.prototype.clearSession = function () {
 	window.sessionStorage.clear();
 };
 
@@ -50,7 +50,7 @@ ServiceStorage.prototype.removeLocal = function (key) {
 	window.localStorage[this.domainname].removeItem(key);
 };
 
-ServiceStorage.prototype.clearLocal = function (key) {
+ServiceStorage.prototype.clearLocal = function () {
 	window.localStorage[this.domainname].clear();
 };
 
