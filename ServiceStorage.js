@@ -1,3 +1,5 @@
+//http://www.sitepoint.com/9-javascript-libraries-working-with-local-storage/
+
 function ServiceStorage(opt) {
 	try {
 		if (window.localStorage.getItem) {
